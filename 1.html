@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>www.bootstrap.boutique</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="libs/fuelux/fuelux.min.js"></script>
+    <script src="libs/fuelux/js/checkbox.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="libs/fuelux/fuelux.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="1.css">
+  </head>
+
+  <body>
+    <small>Get more @<a href="http://bootstrap.boutique"> Bootstrap Boutique</a></small>
+
+    <div class="container" style="margin-top: 20px;">
+      <div class="row fuelux">
+
+        <div class="col-12">
+					<div class="checkbox" id="myCheckbox">
+						<label class="checkbox-custom" data-initialize="checkbox">
+							<input class="sr-only" type="checkbox" value="">
+							<span class="checkbox-label">Custom checkbox unchecked on page load</span>
+						</label>
+					</div>
+					<div class="checkbox" id="myCheckbox2">
+						<label class="checkbox-custom checked" data-initialize="checkbox">
+							<input class="sr-only" checked="checked" type="checkbox" value="">
+							<span class="checkbox-label">Custom checkbox checked on page load</span>
+						</label>
+					</div>
+					<div class="checkbox" id="myCheckbox3">
+						<label class="checkbox-custom disabled" data-initialize="checkbox">
+							<input class="sr-only" disabled="disabled" type="checkbox" value="">
+							<span class="checkbox-label">Disabled custom checkbox unchecked on page load</span>
+						</label>
+					</div>
+					<div class="checkbox" id="myCheckbox4">
+						<label class="checkbox-custom checked disabled" data-initialize="checkbox">
+							<input class="sr-only" checked="checked" disabled="disabled" type="checkbox" value="">
+							<span class="checkbox-label">Disabled custom checkbox checked on page load</span>
+						</label>
+					</div>
+
+
+					<label class="checkbox-custom checkbox-inline" data-initialize="checkbox"  id="myCheckbox5">
+						<input class="sr-only" type="checkbox" value="option1"> <span class="checkbox-label">1</span>
+					</label>
+					<label class="checkbox-custom checkbox-inline" data-initialize="checkbox"  id="myCheckbox6">
+						<input class="sr-only" checked="checked" type="checkbox" value="option2"> <span class="checkbox-label">2</span>
+					</label>
+					<label class="checkbox-custom checkbox-inline disabled" data-initialize="checkbox"  id="myCheckbox7">
+						<input class="sr-only" disabled="disabled" type="checkbox" value="option3"> <span class="checkbox-label">3</span>
+					</label>
+
+
+
+					<div class="checkbox highlight" id="myCheckbox10">
+						<label class="checkbox-custom highlight" data-initialize="checkbox">
+							<input class="sr-only" type="checkbox" value="option1">
+							This control highlights a block-level checkbox on check
+						</label>
+					</div>
+					<label class="checkbox-custom checkbox-inline highlight" data-initialize="checkbox" id="myCheckbox11">
+						<input class="sr-only" type="checkbox" value="option2">
+						This control highlights an inline checkbox on check
+					</label>
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <script src="1.js"></script>
+
+
+
+
+  </body>
+</html>
